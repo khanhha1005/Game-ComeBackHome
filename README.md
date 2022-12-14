@@ -30,8 +30,8 @@
 *   [159]: **Số thẻ có thể úp trên bàn**
 
 ## :video_game: Action
-* [0] **action đi trái **
+* [0] **action đi trái**
 * [1] **action đi thẳng**
 * [2] **action đi lùi**
-* [3] **action đi phải **
+* [3] **action đi phải**
 
