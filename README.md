@@ -1,8 +1,7 @@
 # Game-ComeBackHome
-## :dart: Báo cáo SPLENDOR góc nhìn của mình
+## :dart: Báo cáo Game ComeBackHome 
 1.   `Tốc độ chạy`
-      - **1000 Game**: 7.3s
-      - **10000 Game**: 166s
+      - **1000000 Game**: 23.2
 2. `Chuẩn form`: **Đã test**
 3. `Đúng luật`: **Đã check**
 4. `Không bị loop vô hạn`: **Đã test** với 1000000 ván
@@ -31,10 +30,8 @@
 *   [159]: **Số thẻ có thể úp trên bàn**
 
 ## :video_game: Action
-* [0]   :Là **action bỏ lượt**
-* [1:13] **lấy 12 thẻ trên bàn**
-* [13:16] Là **mở 3 thẻ đang úp**
-* [16:28] Úp **12 thẻ trên bàn**
-* [28:31] Úp **3 thẻ ẩn**
-* [31:36] Lấy **5 nguyên liêu**
-* [36:42] Trả **6 nguyên liệu**
+* [0]   :Là **action đi trái **
+* [1] **action đi thẳng**
+* [2] Là **đi lùi**
+* [3]  **đi phải **
+
