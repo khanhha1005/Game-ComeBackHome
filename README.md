@@ -1,5 +1,5 @@
 # Game-ComeBackHome
-## :dart: Báo cáo Game ComeBackHome 
+## :dart: Báo cáo Game ComeBackHome bản cho biết vị trí hiện tại
 1.   `Tốc độ chạy`
       - **1000000 Game**: 23.2
 2. `Chuẩn form`: **Đã test**
@@ -19,15 +19,12 @@
 *   [161:164] **3 thẻ ẩn có thể úp** cấp 1, 2, 3
 
 ## :bust_in_silhouette: P_state
-*   [:6] là **các nguyên liệu đang có trên bàn**
-*   [6: 18] **thông tin của người chơi**, gồm có  6 nguyên liệu đang có, 5 nguyên liệu mặc định và điểm
-*   [18:102]:   **12 thẻ bình thường trên bàn**, mỗi thẻ có 7 state gồm: [điểm, loại thẻ, 5 nguyên liệu mua]
-*   [102: 127]:   **5 thẻ Noble trên bàn**, mỗi thẻ có 5 state gồm: [5 loại nguyên liệu cần]
-*   [127:148]:   **3 thẻ úp trên tay**, mỗi thẻ có 7 state gồm: [điểm, loại thẻ, 5 nguyên liệu mua]
-*   [148: 153]:  **5 nguyên liệu đã lấy** trong phase lấy nguyên liệu
-*   [153:156]: **điểm của 3 người chơi còn lại**
-*   [156:159]: **Có thể úp được thẻ ẩn không**, 1 là có, 2 là không. Gồm có 3 thẻ ẩn của 3 loại
-*   [159]: **Số thẻ có thể úp trên bàn**
+*   [0:2]  **vị trí của player position **
+*   [2: 4] **thông tin của người chơi**, gồm có  6 nguyên liệu đang có, 5 nguyên liệu mặc định và điểm
+*   [4:8]: **Các vị trí xung quanh player có tường hay không 
+*   [8]:   **Turn
+*   [9]:   **Turn Tối ưu 
+
 
 ## :video_game: Action
 * [0] **action đi trái**
