@@ -2,8 +2,8 @@
 ## :dart: Báo cáo Game ComeBackHome_v1(provide current posistion) and  ComeBackHome_v2( without provide current posistion)
 
 1.   `Tốc độ chạy`
-      - **1000000 Game ComeBackHome_v1**: 94s
-      - **1000000 Game ComeBackHome_v2**: 100s
+      - **1000000 Game ComeBackHome_v1**: 5 phút 
+      - **1000000 Game ComeBackHome_v2**: 6 phút 
 
 2. `Chuẩn form`: **Đã test**
 3. `Đúng luật`: **Đã check**
